@@ -1,0 +1,35 @@
+{
+  "id": "full-negative-queue",
+  "parameters": {
+    "encoder_version": 4,
+    "temperature": 0.15,
+    "query_id_prefix": "query-",
+    "queue_id_prefix": "queue-"
+  },
+  "arrays": {
+    "queries": {
+      "shape": [
+        2048,
+        128
+      ],
+      "pattern": "unit_rows",
+      "dtype": "float32"
+    },
+    "positives": {
+      "shape": [
+        2048,
+        128
+      ],
+      "pattern": "unit_rows",
+      "dtype": "float32"
+    },
+    "queue": {
+      "shape": [
+        8192,
+        128
+      ],
+      "pattern": "unit_rows",
+      "dtype": "float32"
+    }
+  }
+}

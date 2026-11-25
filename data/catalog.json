@@ -1,0 +1,10 @@
+{
+  "product": "跨批负样本队列的对比归约与梯度提交",
+  "provenance": "所有数值、实体和事件均为本地合成资料，不代表真实用户或已发生事故。",
+  "format_revision": 1,
+  "tensors": {
+    "queries": "data/tensors/queries.json",
+    "positives": "data/tensors/positives.json",
+    "queue": "data/tensors/queue.json"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "label-during-window",
+    "events": [
+      {
+        "kind": "begin_window",
+        "id": "w1"
+      },
+      {
+        "kind": "loss",
+        "query_ids": [
+          "q-0",
+          "q-2"
+        ]
+      },
+      {
+        "kind": "label_revision",
+        "entity_id": "e-4",
+        "label": "a",
+        "revision": 2
+      },
+      {
+        "kind": "loss",
+        "query_ids": [
+          "q-1",
+          "q-3"
+        ]
+      },
+      {
+        "kind": "reject_window",
+        "id": "w1"
+      },
+      {
+        "kind": "retry_window",
+        "id": "w1"
+      },
+      {
+        "kind": "commit_window",
+        "id": "w1"
+      },
+      {
+        "kind": "repeat_commit",
+        "id": "w1"
+      }
+    ]
+  },
+  {
+    "id": "staleness-restore",
+    "events": [
+      {
+        "kind": "checkpoint"
+      },
+      {
+        "kind": "advance_encoder",
+        "version": 6
+      },
+      {
+        "kind": "restore"
+      },
+      {
+        "kind": "query_queue"
+      }
+    ]
+  }
+]

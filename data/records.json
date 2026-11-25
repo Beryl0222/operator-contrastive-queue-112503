@@ -1,0 +1,161 @@
+{
+  "queries": [
+    {
+      "query_id": "q-0",
+      "entity_id": "e-0",
+      "label": "a",
+      "label_revision": 1,
+      "weight": 1.0,
+      "positive_id": "pos-0"
+    },
+    {
+      "query_id": "q-1",
+      "entity_id": "e-1",
+      "label": "a",
+      "label_revision": 1,
+      "weight": 1.5,
+      "positive_id": "pos-1"
+    },
+    {
+      "query_id": "q-2",
+      "entity_id": "e-2",
+      "label": "b",
+      "label_revision": 1,
+      "weight": 2.0,
+      "positive_id": "pos-2"
+    },
+    {
+      "query_id": "q-3",
+      "entity_id": "e-3",
+      "label": "b",
+      "label_revision": 1,
+      "weight": 2.5,
+      "positive_id": "pos-3"
+    }
+  ],
+  "queue": [
+    {
+      "vector_id": "vec-0",
+      "entity_id": "e-0",
+      "label": "a",
+      "label_revision": 1,
+      "encoder_version": 3,
+      "commit_sequence": 0
+    },
+    {
+      "vector_id": "vec-1",
+      "entity_id": "e-1",
+      "label": "a",
+      "label_revision": 1,
+      "encoder_version": 3,
+      "commit_sequence": 1
+    },
+    {
+      "vector_id": "vec-2",
+      "entity_id": "e-2",
+      "label": "b",
+      "label_revision": 1,
+      "encoder_version": 3,
+      "commit_sequence": 2
+    },
+    {
+      "vector_id": "vec-3",
+      "entity_id": "e-3",
+      "label": "b",
+      "label_revision": 1,
+      "encoder_version": 2,
+      "commit_sequence": 3
+    },
+    {
+      "vector_id": "vec-4",
+      "entity_id": "e-4",
+      "label": "c",
+      "label_revision": 1,
+      "encoder_version": 3,
+      "commit_sequence": 4
+    },
+    {
+      "vector_id": "vec-5",
+      "entity_id": "e-5",
+      "label": "d",
+      "label_revision": 1,
+      "encoder_version": 2,
+      "commit_sequence": 5
+    },
+    {
+      "vector_id": "vec-6",
+      "entity_id": "e-6",
+      "label": "c",
+      "label_revision": 1,
+      "encoder_version": 1,
+      "commit_sequence": 6
+    },
+    {
+      "vector_id": "vec-7",
+      "entity_id": "e-7",
+      "label": "e",
+      "label_revision": 1,
+      "encoder_version": 0,
+      "commit_sequence": 7
+    },
+    {
+      "vector_id": "vec-8",
+      "entity_id": "e-8",
+      "label": "f",
+      "label_revision": 1,
+      "encoder_version": 3,
+      "commit_sequence": 8
+    }
+  ],
+  "encoder_version": 3,
+  "capacity": 7,
+  "temperature": 0.15,
+  "current_labels": {
+    "e-0": {
+      "label": "a",
+      "revision": 1
+    },
+    "e-1": {
+      "label": "a",
+      "revision": 1
+    },
+    "e-2": {
+      "label": "b",
+      "revision": 1
+    },
+    "e-3": {
+      "label": "b",
+      "revision": 1
+    },
+    "e-4": {
+      "label": "c",
+      "revision": 1
+    },
+    "e-5": {
+      "label": "d",
+      "revision": 1
+    },
+    "e-6": {
+      "label": "c",
+      "revision": 1
+    },
+    "e-7": {
+      "label": "e",
+      "revision": 1
+    },
+    "e-8": {
+      "label": "f",
+      "revision": 1
+    }
+  },
+  "microbatches": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ]
+  ]
+}
